@@ -1,0 +1,124 @@
+* {
+	border: 0.5px solid black;
+}
+
+body {
+	width:900px;
+}
+
+header {
+	width: 880px;
+	margin: 20px 10px 0;
+	text-align: center;
+
+}
+
+header nav {
+	margin: 50px 10px 3px;
+
+}
+
+header nav ul {
+	width: 100px;
+	margin: 45px 400px 0;
+	padding: 0;
+	display: inline;
+	position: relative;
+
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+#section1 {
+	width: 270px;
+	height: 800px;
+	position: relative;
+	margin: 10px 8px 15px 10px;
+	float: left;
+}
+
+#section1 nav {
+	margin: 25px 10px 10px 10px;
+	width: 250px;
+	height: 460px;
+
+}
+
+#section1 aside {
+	width: 220px;
+	height: 180px;
+	margin: 25px 20px 50px 20px;
+
+}
+
+#section2 {
+	width: 580px;
+	height: 800px;
+	margin: 10px 18px 15px 0;
+	float: right;
+
+}
+
+#section2 > * {
+	width: 550px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+#section2 > header {
+	height: 40px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+#section2 article {
+	height: 220px;
+	margin-bottom: 30px;
+}
+
+#section2 article header,
+#section2 article div,
+#section2 article p,
+#section2 article footer {
+	width: 530px;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+#section2 article header {
+	height:35px;
+	margin-top:20px;
+	margin-bottom:8px;
+}
+
+#section2 article:nth-child(2) div {
+	width: 378px;
+	margin-right: 3px;
+	display: inline-block;
+}
+
+#section2 article:nth-child(2) aside {
+	width: 140px;
+	margin-left: 5px;
+	margin-right: 8.5px;
+	float:right;
+}
+
+#section2 article p {
+	height: 90px;
+}
+
+#section2 footer {
+	height: 30px;
+}
+
+body>footer {
+	width: 880px;
+	height: 40px;
+	margin: 840px 10px 20px 10px;
+	text-align: center;
+
+}
